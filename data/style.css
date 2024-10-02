@@ -71,7 +71,6 @@ body {
     margin-bottom: 30px; /* Space below the navbar */
 }
 
-/* Flexbox to center the navbar links */
 .navbar-nav {
     display: flex;
     justify-content: center;
