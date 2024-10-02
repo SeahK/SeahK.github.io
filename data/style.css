@@ -15,12 +15,72 @@
 	margin-left: 3px;
 }
 
+/* Change icon colors to purple */
+#icons i {
+    color: rgb(157, 82, 206) !important; /* Set the color for icons */
+}
+
+/* Change hyperlink colors to purple */
+a {
+    color: rgb(133, 51, 187) !important; /* Set the default link color */
+}
+
 .research {
     display: flex;
     align-items: center;
 }
 
+.image-icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding-top: 17px;
+}
+
+
 img.custom-size {
-    width: 150px;
+    width: 230px;
     height: auto;
+}
+
+body {
+    font-size: 16px !important; 
+}
+
+/* Custom Navbar Styling */
+.navbar-default {
+    background-color: #f8f8f8; /* Navbar background color */
+    border-color: #e7e7e7; /* Border color */
+    position: relative;
+}
+
+/* Styling for the links in the navbar */
+.navbar-default .navbar-nav > li > a {
+    color: #504f4f !important; /* Link color */
+    font-size: 17px; /* Font size */
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #0056b3; /* Hover color */
+}
+
+/* Center the navbar links */
+.navbar-centered {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px; /* Space below the navbar */
+}
+
+/* Flexbox to center the navbar links */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.contact-info {
+	margin-left: 20px; /* Adjust space between icons and contact info */
+    margin-top: 5px; /* Adjust space between icons and contact info */
+    font-size: 19px; /* Adjust font size */
 }
